@@ -17,44 +17,32 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void ButtonClick(object sender, EventArgs e)
         {
             string FirstValueText = textBox1.Text;
             double FirstValue = Convert.ToDouble(FirstValueText);
             string SecondValueText = textBox2.Text;
             double SecondValue = Convert.ToDouble(SecondValueText);
-            double result = FirstValue + SecondValue;
-            label1.Text = result.ToString();
-        }
+            double result;
+            switch (((Button)sender).Name)
+            {
+                case "Plus":
+                    result = FirstValue + SecondValue;
+                    break;
+                case "Minus":
+                    result = FirstValue - SecondValue;
+                    break;
+                case "Multiplication":
+                    result = FirstValue * SecondValue;
+                    break;
+                case "Division":
+                    result = FirstValue / SecondValue;
+                    break;
+                default:
+                    throw new Exception("error");
+            }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            string FirstValueText = textBox1.Text;
-            double FirstValue = Convert.ToDouble(FirstValueText);
-            string SecondValueText = textBox2.Text;
-            double SecondValue = Convert.ToDouble(SecondValueText);
-            double result = FirstValue * SecondValue;
-            label1.Text = result.ToString();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            string FirstValueText = textBox1.Text;
-            double FirstValue = Convert.ToDouble(FirstValueText);
-            string SecondValueText = textBox2.Text;
-            double SecondValue = Convert.ToDouble(SecondValueText);
-            double result = FirstValue - SecondValue;
-            label1.Text = result.ToString();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            string FirstValueText = textBox1.Text;
-            double FirstValue = Convert.ToDouble(FirstValueText);
-            string SecondValueText = textBox2.Text;
-            double SecondValue = Convert.ToDouble(SecondValueText);
-            double result = FirstValue / SecondValue;
-            label1.Text = result.ToString();
+            label1.Text = Convert.ToString(result);
         }
     }
 }
