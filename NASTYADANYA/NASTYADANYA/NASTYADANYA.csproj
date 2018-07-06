@@ -45,20 +45,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abs.cs" />
-    <Compile Include="Cos.cs" />
-    <Compile Include="Ctg.cs" />
-    <Compile Include="IOneArgumentCalculator.cs" />
-    <Compile Include="OneArgumentFactory.cs" />
-    <Compile Include="Plus.cs" />
-    <Compile Include="Multiplication.cs" />
-    <Compile Include="Minus.cs" />
-    <Compile Include="Division.cs" />
-    <Compile Include="Sin.cs" />
-    <Compile Include="Sqrt.cs" />
-    <Compile Include="Tg.cs" />
-    <Compile Include="TwoArgumentsFactory.cs" />
-    <Compile Include="ITwoArgumentsCalculator.cs" />
+    <Compile Include="OneArgument\Abs.cs" />
+    <Compile Include="OneArgument\Cos.cs" />
+    <Compile Include="OneArgument\Ctg.cs" />
+    <Compile Include="OneArgument\IOneArgumentCalculator.cs" />
+    <Compile Include="OneArgument\OneArgumentFactory.cs" />
+    <Compile Include="TwoArgument\Plus.cs" />
+    <Compile Include="TwoArgument\Multiplication.cs" />
+    <Compile Include="TwoArgument\Minus.cs" />
+    <Compile Include="TwoArgument\Division.cs" />
+    <Compile Include="OneArgument\Sin.cs" />
+    <Compile Include="OneArgument\Sqrt.cs" />
+    <Compile Include="OneArgument\Tg.cs" />
+    <Compile Include="TwoArgument\TwoArgumentsFactory.cs" />
+    <Compile Include="TwoArgument\ITwoArgumentsCalculator.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
