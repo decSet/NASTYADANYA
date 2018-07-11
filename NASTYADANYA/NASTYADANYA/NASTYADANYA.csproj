@@ -51,13 +51,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Min.cs" />
+    <Compile Include="TwoArgument\Min.cs" />
     <Compile Include="TwoArgument\Log10.cs" />
     <Compile Include="TwoArgument\Log.cs" />
-    <Compile Include="Max.cs" />
+    <Compile Include="TwoArgument\Max.cs" />
     <Compile Include="TwoArgument\Pow.cs" />
     <Compile Include="TwoArgument\IEEERemainder.cs" />
-    <Compile Include="OneArgument\Atan.cs" />
+    <Compile Include="OneArgument\Atg.cs" />
     <Compile Include="OneArgument\Acos.cs" />
     <Compile Include="OneArgument\Exp.cs" />
     <Compile Include="OneArgument\Asin.cs" />

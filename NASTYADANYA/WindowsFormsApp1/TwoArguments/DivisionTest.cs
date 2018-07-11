@@ -1,17 +1,17 @@
 ﻿using NASTYADANYA;
 using NUnit.Framework;
 
-namespace MyCalculatorTests.TwoArgumentTests
+namespace NASTYADANYATest
 {
     [TestFixture]
-    public class minusTest
+    public class DivisionTest
     {
         [Test]
         public void CalculateTest()
         {
-            ITwoArgumentsCalculator calcultor = new Minus();
+            ITwoArgumentsCalculator calcultor = new Division();
             double actual = calcultor.Calculate(8, 2);
-            Assert.AreEqual(6, actual);
+            Assert.AreEqual(4, actual);
         }
     }
 
