@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace NASTYADANYA
 {
-    public partial class Form1 : Form
+    public partial class Calculator : Form
     {
-        public Form1()
+        public Calculator()
         {
             InitializeComponent();
         }
@@ -32,6 +32,25 @@ namespace NASTYADANYA
             ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(calculatorName);
             double result = calculator.Calculate(firstValue, secondValue);
             label1.Text = Convert.ToString(result);
+        }
+        private void button_Click1(object sender, EventArgs e)
+        {
+            string firstValueText = textBox1.Text;
+            double firstValue = Convert.ToDouble(firstValueText);
+            string calculatorName = ((Button)sender).Name;
+            IOneArgumentCalculator calculator = OneArgumentFactory.CreateCalculator(calculatorName);
+            double result = calculator.Calculate(firstValue);
+            label1.Text = Convert.ToString(result);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

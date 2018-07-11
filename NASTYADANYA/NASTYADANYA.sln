@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NASTYADANYA", "NASTYADANYA\NASTYADANYA.csproj", "{5799640F-2AC1-4DF8-8304-648C9256BFAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NASTYADANYA.Test", "WindowsFormsApp1\NASTYADANYA.Test.csproj", "{03760EAE-2362-40BA-B315-12881C859EAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5799640F-2AC1-4DF8-8304-648C9256BFAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5799640F-2AC1-4DF8-8304-648C9256BFAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5799640F-2AC1-4DF8-8304-648C9256BFAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03760EAE-2362-40BA-B315-12881C859EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03760EAE-2362-40BA-B315-12881C859EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03760EAE-2362-40BA-B315-12881C859EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03760EAE-2362-40BA-B315-12881C859EAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
