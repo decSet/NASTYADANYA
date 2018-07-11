@@ -51,13 +51,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Log10.cs" />
     <Compile Include="Class10.cs" />
     <Compile Include="Class11.cs" />
-    <Compile Include="Class12.cs" />
-    <Compile Include="Class13.cs" />
-    <Compile Include="Class14.cs" />
-    <Compile Include="Class15.cs" />
+    <Compile Include="SqrtTest.cs" />
+    <Compile Include="Pow.cs" />
+    <Compile Include="Exp.cs" />
+    <Compile Include="Log.cs" />
     <Compile Include="MultiplicationTest.cs" />
     <Compile Include="MinusTest.cs" />
     <Compile Include="PlusTest.cs" />
