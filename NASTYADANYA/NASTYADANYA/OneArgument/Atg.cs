@@ -14,4 +14,4 @@ namespace NASTYADANYA
             return Math.Atan(firstArgument);
         }
     }
-}.
+}

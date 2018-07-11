@@ -1,7 +1,8 @@
-﻿namespace NASTYADANYA;
+﻿using NASTYADANYA;
 using System;
-{
+
     public class Division : ITwoArgumentsCalculator
+
     {
     /// <summary>
     /// calculate addition function 
@@ -11,14 +12,16 @@ using System;
     /// <returns> any number </returns>
     public double Calculate(double firstArgument, double secondArgument)
         {
-            {
-                            if (secondArgument == 0)
-                                {
-                    throw new Exception("Error! Division by zero!");
-                                }
+            { 
+             if (secondArgument == 0)
+
+              {
+                throw new Exception("Error! Division by zero!");
+
+              }
+
                 return firstArgument / secondArgument;
             }
             return firstArgument / secondArgument;
         }
     }
-}
