@@ -14,7 +14,13 @@ namespace NASTYADANYA
                 case "Ctg": return new Ctg();
                 case "Sqrt": return new Sqrt();
                 case "Abs": return new Abs();
-
+                case "Exp": return new Exp();
+                case "Acos": return new Acos();
+                case "Asin": return new Asin();
+                case "Atg": return new Atg();
+                case "Log": return new Log();
+                case "Log10": return new Log10();
+                
                 default:
                     throw new Exception("error");
             }

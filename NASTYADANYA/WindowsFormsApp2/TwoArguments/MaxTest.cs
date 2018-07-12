@@ -8,12 +8,12 @@ namespace NASTYADANYATest
     {
         [TestCase(7, 1, 7)]
         [TestCase(5, 1, 5)]
-        [TestCase(27, 3, 27)]
+        [TestCase(8, 1, 8)]
         public void CalculateTest(double firstValue, double secondValue, double expected)
         {
             var calculator = new Max();
-            var actualResult = calculator.Calculate(firstValue, secondValue);
-            Assert.AreEqual(expected, actualResult);
+            var actualResult = calculator.Calculate(7, 1);
+            Assert.AreEqual(7, actualResult);
         }
     }
 }

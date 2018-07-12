@@ -12,8 +12,8 @@ namespace NASTYADANYATest
         public void CalculateTest(double firstValue, double secondValue, double expected)
         {
             var calculator = new Minus();
-            var actualResult = calculator.Calculate(firstValue, secondValue);
-            Assert.AreEqual(expected, actualResult);
+            var actualResult = calculator.Calculate(4, 7);
+            Assert.AreEqual(-3, actualResult);
         }
     }
 }

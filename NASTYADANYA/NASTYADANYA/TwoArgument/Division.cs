@@ -1,6 +1,7 @@
 ﻿using NASTYADANYA;
 using System;
 
+
     public class Division : ITwoArgumentsCalculator
 
     {
@@ -12,7 +13,6 @@ using System;
     /// <returns> any number </returns>
     public double Calculate(double firstArgument, double secondArgument)
         {
-            { 
              if (secondArgument == 0)
 
               {
@@ -21,7 +21,5 @@ using System;
               }
 
                 return firstArgument / secondArgument;
-            }
-            return firstArgument / secondArgument;
         }
     }

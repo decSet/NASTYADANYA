@@ -11,9 +11,9 @@ namespace NASTYADANYATest
         [TestCase(-1, 3.1416)]
         public void CalculateTest(double firstValue, double expected)
         {
-            IOneArgumentCalculator calculator = OneArgumentFactory.CreateCalculator("Arcos");
-            double actualResult = calculator.Calculate(0.6521);
-            Assert.AreEqual(0.8604, actualResult, 0.0001);
+            var calculator = new Acos();
+            double actualResult = calculator.Calculate(-1);
+            Assert.AreEqual(3.1416, actualResult, 0.0001);
         }
     }
 }
